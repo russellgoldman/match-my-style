@@ -1,11 +1,17 @@
+<img width="200px" src="https://user-images.githubusercontent.com/15056496/73232398-193ff600-4151-11ea-9a97-d4d8d7244468.png" />
+
 ## Inspiration
 We were inspired by the difficulty of filtering out the clothes we were interested in from all the available options. As a group of motivated undergraduate software developers, we were determined to find a solution.
 
 ## What it does
-MatchMyStyle intelligently filters brand catalogs using an iteratively trained model containing your favourite items from your personal wardrobe. It aims to enhance the shopping experience for both brands and their consumers.
+MatchMyStyle intelligently filters brand catalogs using past items from your personal wardrobe that you love. It aims to enhance the shopping experience for both brands and their consumers.
 
 ## How we built it
-We split our tech stack into three core ecosystems. Our backend ecosystem hosted its own API to communicate with the machine learning model, Firebase's Cloud Storage, and our frontend. Firebase Cloud Storage was used to store our user dataset for training purposes with the ability to add additional images. The ML ecosystem was built using Google Cloud's Vision API and fetched images using Google Cloud Storage buckets. The frontend demonstrates the potential that could be achieved by a fashion brand's catalog being coupled with our backend technology to filter the items that matter to an individual user.
+We split our tech stack into three core ecosystems. Our backend ecosystem hosted its own API to communicate with the machine learning model, Firebase's Cloud Storage, and our frontend. Firebase Cloud Storage was used to store our user dataset for training purposes with the ability to add additional images. 
+
+The ML ecosystem was built using Google Cloud's Vision API and fetched images using Google Cloud Storage buckets. It learns from images of past items you love from your personal wardrobe to deliver intelligent filters. 
+
+Finally, the frontend ecosystem demonstrates the potential that could be achieved by a fashion brand's catalog being coupled with our backend and ML technology to filter the items that matter to an individual user.
 
 ## Challenges we ran into
 We knew going into this project that we wanted to accomplish something ambitious that could have a tangible impact on people to increase productivity. One of the biggest hurdles we encountered was finding the appropriate tools to facilitate our machine learning routine in a span of 24 hours. Eventually we decided on Google Cloud's Vision API which proved successful.
