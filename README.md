@@ -1,4 +1,4 @@
-<img height="100px" width="600px" src="https://user-images.githubusercontent.com/15056496/73232520-8489c800-4151-11ea-9d5d-5eef8e9e76db.png" />
+<img src="https://user-images.githubusercontent.com/15056496/73232812-8ef89180-4152-11ea-948f-4d700d318349.png" />
 
 ## Inspiration
 We were inspired by the difficulty of filtering out the clothes we were interested in from all the available options. As a group of motivated undergraduate software developers, we were determined to find a solution.
